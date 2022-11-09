@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu113"
+verify_ssl = true
+name = "downloadpytorch"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu113"
+verify_ssl = true
+name = "downloadpytorch"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu113"
+verify_ssl = true
+name = "downloadpytorch"
+
+[packages]
+pygame = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+matplotlib = "*"
+ipython = "*"
+numpy = "*"
+jupyterlab = "*"
+gym = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
